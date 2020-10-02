@@ -33,11 +33,198 @@
 										<p>Dojo es un framework que contiene API y widgets (controles) para facilitar el desarrollo de aplicaciones Web que utilicen tecnología AJAX. Contiene un sistema de empaquetado inteligente, los efectos de UI, drag and drop API, widget API, abstracción de eventos, almacenamiento de API en el cliente, e interacción de API con AJAX.
 										Resuelve asuntos de usabilidad comunes como pueden ser la navegación y detección del navegador, soportar cambios de URL en la barra de URLs para luego regresar a ellas (bookmarking), y la habilidad de degradar cuando AJAX/JavaScript no es completamente soportado en el cliente. Es conocido como "la navaja suiza del ejército de las bibliotecas Javascript". Proporciona una gama más amplia de opciones en una sola biblioteca JavaScript y es compatible con navegadores antiguos.
 										</p>
-										
+
 									<hr class="major" />
 
 
 								</section>
+
+								<table>
+        <thead>
+          <tr>
+              <th>Funcionalidad</th>
+              <th>Paquetes / Módulos</th>
+              <th>Descripción</th>
+          </tr>
+        </thead>
+
+				<tbody>
+          <tr>
+            <td>Dojo Kernel</td>
+            <td><a href="https://dojotoolkit.org/reference-guide/1.10/dojo/_base/kernel.html#dojo-base-kernel">dojo/_base/kernel</a></td>
+            <td>The bootstrap kernel that generates the dojo namespace</td>
+          </tr>
+          <tr>
+            <td>Dojo Configuration 	</td>
+            <td><a href="">dojo/_base/config</a></td>
+            <td>Configures Dojo and loads the default platform configuration</td>
+          </tr>
+          <tr>
+            <td>Module Loading</td>
+          	<td><a href="">dojo/_base/loader</a></td>
+            <td>The legacy and AMD module loader for Dojo</td>
+          </tr>
+					<tr>
+						<td>Feature Detection</td>
+						<td><a href="">dojo/has</a></td>
+						<td>Modules that provide cross-platform feature detection and management</td>
+					</tr>
+					<td>Language</td>
+					<td><a href="">dojo/_base/lang</a></td>
+					<td>The foundation language extensions for Dojo</td>
+					<tr>
+						<td>Classes</td>
+						<td><a href="">dojo/_base/declare</a></td>
+						<td>Dojo’s class system</td>
+					</tr>
+					<tr>
+						<td>Deferreds and Promises</td>
+						<td><a href="">dojo/promise</a></td>
+						<td>Asynchronous process management modules</td>
+					</tr>
+					<tr>
+						<td>Events, Connections</td>
+						<td><a href="">dojo/on</a></td>
+						<td>Modules for handling events and modifying behaviors</td>
+					</tr>
+					<tr>
+						<td>Aspect Oriented Programming</td>
+						<td><a href="">dojo/aspect</a></td>
+						<td>Providing aspect based advice to modify join points (methods)</td>
+					</tr>
+					<tr>
+						<td>Requests</td>
+						<td><a href="">dojo/request</a></td>
+						<td>Handling of requests, the core of “AJAX” programming</td>
+					</tr>
+					<tr>
+						<td>Properties</td>
+						<td><a href="">dojo/Stateful</a></td>
+						<td>Management of object and class properties</td>
+					</tr>
+					<tr>
+						<td>Topics/Publish/Subscribe 	</td>
+						<td><a href="">dojo/topic</a></td>
+						<td>Dojo’s Topic system</td>
+					</tr>
+					<tr>
+						<td>Data and Stores</td>
+						<td><a href="">dojo/store</a></td>
+						<td>Packages that provide client side data handling</td>
+					</tr>
+					<tr>
+						<td>Router</td>
+						<td><a href="">dojo/router</a></td>
+						<td>Allows mapping of hash based structures to callbacks</td>
+					</tr>
+					<tr>
+						<td>Parser</td>
+						<td><a href="">dojo/parser</a></td>
+						<td>Allows “decorated” HTML to be converted into instantiated objects</td>
+					</tr>
+					<tr>
+						<td>DOM and HTML</td>
+						<td><a href="">dojo/dom</a></td>
+						<td>Modules for manipulating and managing the DOM and HTML</td>
+					</tr>
+					<tr>
+						<td>Query, NodeList and Selectors</td>
+						<td><a href="">dojo/query</a></td>
+						<td>DOM querying and objective enhancements to DOM nodes</td>
+					</tr>
+					<tr>
+						<td>DOM Effects</td>
+						<td><a href="">dojo/_base/fx</a></td>
+						<td>DOM animation effects</td>
+					</tr>
+					<tr>
+						<td>Browser Window</td>
+						<td><a href="">dojo/window</a></td>
+						<td>Cross-browser compatible references to the window</td>
+					</tr>
+					<tr>
+						<td>Document Lifecycle</td>
+						<td><a href="">dojo/ready</a></td>
+						<td>Document lifecycle modules</td>
+					</tr>
+					<tr>
+						<td>Browser History</td>
+						<td><a href="">dojo/back</td>
+						<td>Module for managing the browsers history</td>
+					</tr>
+					<tr>
+						<td>Cookies</td>
+						<td><a href="">dojo/cookie</a></td>
+						<td>Cookie management module</td>
+					</tr>
+					<tr>
+						<td>Mouse, Touch and Keys</td>
+						<td><a href="">dojo/mouse</a></td>
+						<td>User input normalisation and management</td>
+					</tr>
+					<tr>
+						<td>Drag and Drop</td>
+						<td><a href="">dojo/dnd</a></td>
+						<td>Drag and Drop package</td>
+					</tr>
+					<tr>
+						<td>Testing</td>
+						<td><a href="">dojo/robot</a></td>
+						<td>Modules for simulating user input</td>
+					</tr>
+					<tr>
+						<td>Arrays</td>
+						<td><a href="">dojo/_base/array</a></td>
+						<td>Array routine enhancements</td>
+					</tr>
+					<tr>
+						<td>Strings</td>
+						<td><a href="">dojo/string</a></td>
+						<td>String routine enhancements</td>
+					</tr>
+					<tr>
+						<td>JSON</td>
+						<td><a href="">dojo/json</a></td>
+						<td>JSON handling modules</td>
+					</tr>
+					<tr>
+						<td>Colors</td>
+						<td><a href="">dojo/_base/Color</a></td>
+						<td>Color classes/functions</td>
+					</tr>
+					<tr>
+						<td>Dates</td>
+						<td><a href="">dojo/date</a></td>
+						<td>Date routine enhancements</td>
+					</tr>
+					<tr>
+						<td>URL and Query Strings</td>
+						<td><a href="">dojo/_base/url</a></td>
+						<td>URL and URL query string management</td>
+					</tr>
+					<tr>
+						<td>Internationalization</td>
+						<td><a href="">dojo/i18n</a></td>
+						<td>Modules for handling internationalization of applications</td>
+					</tr>
+					<tr>
+						<td>Accessibility</td>
+						<td><a href="">dojo/hccss</a></td>
+						<td>Accessibility CSS enhancements</td>
+					</tr>
+					<tr>
+						<td>Remote Procedure Calls</td>
+						<td><a href="https://dojotoolkit.org/reference-guide/1.10/dojo/rpc.html#dojo-rpc">dojo/rpc</a></td>
+						<td>Ability to invoke remote procedure calls</td>
+					</tr>
+					<tr>
+						<td>Miscellaneous</td>
+						<td><a href="https://dojotoolkit.org/reference-guide/1.10/dojo/gears.html#dojo-gears">dojo/gears</a></td>
+					</tr>
+        </tbody>
+
+			</table>
+
 
 						</div>
 					</div>

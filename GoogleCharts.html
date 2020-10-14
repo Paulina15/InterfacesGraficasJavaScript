@@ -34,9 +34,164 @@
 											Lleva un tiempo medio "aparcada" por Google, pero sigue siendo una excelente opción, fácil de usar, potente y compatible con casi todo.
 
 										</p>
-										
-
 								</section>
+
+								<link rel="stylesheet" type="text/css" href="https://developers.google.com/chart/interactive/css/charts_gallery.css">
+
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script>
+    google.charts.load('current', {
+      packages: ['corechart', 'treemap', 'geomap', 'gauge', 'table', 'timeline', 'orgchart', 'geochart']});
+  </script>
+
+<div id="gallery_tab_content">
+
+  <table id="core_gallery_table">
+
+    <tr>
+      <td class="item_container first">
+        <div class="item_container">
+          <a target="_top" href="https://developers.google.com/chart/interactive/docs/gallery/geochart">Geo Chart</a>
+          <div class="chart_container" id="geochart"></div>
+        </div>
+      </td>
+      <td class="item_container second">
+        <div class="item_container">
+          <a target="_top" href="https://developers.google.com/chart/interactive/docs/gallery/scatterchart">Scatter Chart</a>
+          <div class="chart_container" id="scatterchart"></div>
+        </div>
+      </td>
+      <td class="item_container third">
+        <div class="item_container">
+          <a target="_top" href="https://developers.google.com/chart/interactive/docs/gallery/columnchart">Column Chart</a>
+          <div class="chart_container" id="columnchart"></div>
+        </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td class="item_container first">
+        <div class="item_container">
+          <a target="_top" href="https://developers.google.com/chart/interactive/docs/gallery/histogram">Histogram</a>
+          <div class="chart_container" id="histogram"></div>
+        </div>
+      </td>
+     <td class="item_container second">
+        <div class="item_container">
+          <a target="_top" href="https://developers.google.com/chart/interactive/docs/gallery/barchart">Bar Chart</a>
+          <div class="chart_container" id="barchart"></div>
+
+        </div>
+      </td>
+      <td class="item_container third">
+        <div class="item_container">
+          <a target="_top" href="https://developers.google.com/chart/interactive/docs/gallery/combochart">Combo Chart</a>
+          <div class="chart_container" id="combochart"></div>
+        </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td class="item_container first">
+        <div class="item_container">
+          <a target="_top" href="https://developers.google.com/chart/interactive/docs/gallery/areachart">Area Chart</a>
+          <div class="chart_container" id="areachart"></div>
+        </div>
+      </td>
+      <td class="item_container second">
+        <div class="item_container">
+          <a target="_top" href="https://developers.google.com/chart/interactive/docs/gallery/steppedareachart">
+            Stepped Area Chart
+          </a>
+          <div class="chart_container" id="steppedareachart" style="margin-top:22px"></div>
+        </div>
+      </td>
+      <td class="item_container third">
+        <div class="item_container">
+          <a target="_top" href="https://developers.google.com/chart/interactive/docs/gallery/linechart">Line Chart</a>
+          <div class="chart_container" id="linechart"></div>
+        </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td class="item_container first">
+        <div class="item_container">
+          <a target="_top" href="https://developers.google.com/chart/interactive/docs/gallery/piechart">Pie Chart</a>
+          <div class="chart_container" id="piechart"></div>
+        </div>
+      </td>
+      <td class="item_container second">
+        <div class="item_container">
+          <a target="_top" href="https://developers.google.com/chart/interactive/docs/gallery/bubblechart">Bubble Chart</a>
+          <div class="chart_container" id="bubblechart"></div>
+        </div>
+      </td>
+      <td class="item_container third">
+        <div class="item_container">
+          <a target="_top" href="https://developers.google.com/chart/interactive/docs/gallery/piechart#donut">Donut Chart</a>
+          <div class="chart_container" id="donutchart"></div>
+        </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td class="item_container first">
+        <div class="item_container">
+          <a target="_top" href="https://developers.google.com/chart/interactive/docs/gallery/orgchart">Org Chart</a>
+          <div class="chart_container" id="orgchart"><img src="https://developers.google.com/chart/interactive/images/chart_org.png"></div>
+        </div>
+      </td>
+      <td class="item_container second">
+        <div class="item_container">
+          <a target="_top" href="https://developers.google.com/chart/interactive/docs/gallery/treemap">Treemap</a>
+          <div class="chart_container" id="treemap"></div>
+        </div>
+      </td>
+      <td class="item_container third">
+        <div class="item_container">
+          <a target="_top" href="https://developers.google.com/chart/interactive/docs/gallery/table">Table</a>
+          <div class="chart_container" id="table"></div>
+        </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td class="item_container first">
+        <div class="item_container">
+          <a target="_top" href="https://developers.google.com/chart/interactive/docs/gallery/timeline">Timeline</a>
+          <div class="chart_container" id="timeline" style="margin-top:22px"></div>
+        </div>
+      </td>
+      <td class="item_container second">
+        <div class="item_container">
+          <a target="_top" href="https://developers.google.com/chart/interactive/docs/gallery/gauge">Gauge</a>
+          <div class="chart_container" id="gauge" style="margin-top:30px"></div>
+        </div>
+      </td>
+      <td class="item_container third">
+        <div class="item_container">
+          <a target="_top" href="https://developers.google.com/chart/interactive/docs/gallery/candlestickchart">
+            Candlestick Chart
+          </a>
+          <div class="chart_container" id="candlestickchart"></div>
+        </div>
+      </td>
+    </tr>
+  </table>
+  <script src="https://www.gstatic.com/external_hosted/jquery2.min.js"></script>
+  <script type="text/javascript" src="https://developers.google.com/chart/interactive/js/gallery.js"></script>
+  <p class="note">
+    Many of these charts are
+    <a target="_top"
+       href="http://code.google.com/p/gwt-google-apis/wiki/VisualizationGettingStarted?tm=6">
+      GWT integrated
+    </a>.
+  </p>
+	<h3>Referencias</h3>
+	<p>Google. (2020). Chart Gallery. 07 Junio, 2020, de Google Developers Sitio web: https://developers-dot-devsite-v2-prod.appspot.com/chart/interactive/docs/gallery</p>
+</div>
+
 
 						</div>
 					</div>
